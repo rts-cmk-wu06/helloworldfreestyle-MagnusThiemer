@@ -1,0 +1,36 @@
+/* Opsætning 1: */
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0cade1; padding: 50px; box-sizing: border-box;}
+
+img { display: block; height: 100px; padding-top: 20px; margin-left: auto; margin-right: auto;}
+
+h1 { color: #005da1; font-size: 4em; text-align: center; }
+
+h3 { color: #005da1; font-size: 1.5em; text-align: center; }
+
+header { height: 300px; margin-bottom: 25px; background-color: #ffffff; border: solid 5px #005da1; justify-content: center;}
+
+nav { height: 75px; margin-bottom: 25px; background-color: #ffffff; border: solid 5px #005da1;}
+
+li { display: inline; padding-left: 50px; color: #005da1;}
+
+ul { text-align: center;}
+
+p, address { color: #005da1; padding-left: 40px; padding-right: 40px; padding-bottom: 25px; text-align: center;}
+
+a { color: #005da1;}
+
+main {  display: flex; flex-grow: 1; justify-content: space-between; margin-bottom: 25px; }
+
+article { width: 70%; background-color: #ffffff; border: solid 5px #005da1}
+
+section { width: 25%; background-color: #ffffff; border: solid 5px #005da1}
+
+footer { height: 125px; background-color: #ffffff; border: solid 5px #005da1}
+
